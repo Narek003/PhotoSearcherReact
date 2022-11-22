@@ -1,0 +1,16 @@
+img{
+    max-width: 100%;
+}
+.photos{
+    max-width: 1140px;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.item{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
